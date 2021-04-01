@@ -4,6 +4,19 @@ We propose to align images _before_ calculating a loss and optimizing in image g
 
 ## Getting Started
 
+### Environment and Dependencies
+
+A conda environment can be set up by running `conda create --name [ENV_NAME] --file requirements.txt`.
+
+TODO: Make a virtualenv requirements.txt
+
+TODO (might have forgotten a few): Requirements are roughly:
+
+- pytorch
+- numpy
+- scipy
+- PIL
+
 ### Download Flow Model Checkpoints
 
 First, download the flow model checkpoints by running `sh download_models.sh`. This will download the RAFT checkpoints and copy them to the correct directory, and then do some cleanup.
