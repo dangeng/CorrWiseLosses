@@ -1,0 +1,5 @@
+@inproceedings{geng2021correspondences,
+  title={Comparing Correspondences: Video Prediction with Correspondence-wise Losses},
+  author={Geng, Daniel and Owens, Andrew},
+  year={2021}
+}
