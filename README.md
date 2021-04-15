@@ -71,7 +71,7 @@ Image generation code is modified from [pix2pixHD](https://github.com/NVIDIA/pix
 We also provide two flow methods:
 
 - PWC-Net, (modified) from [this repo](https://github.com/sniklaus/pytorch-pwc) by Simon Niklaus, commit hash `cf0d2f2cbef4bcb0f6cbf09011960a4899d77dec`
-- RAFT, (modified) from [the RAFT repo](https://github.com/sniklaus/pytorch-pwc) by Zachary Teed, commit `13198c355d11c3a0c45f09d1f15ead4b81a5043f`
+- RAFT, (modified) from [the RAFT repo](https://github.com/princeton-vl/RAFT) by Zachary Teed, commit `13198c355d11c3a0c45f09d1f15ead4b81a5043f`
 
 
 ## TODO
