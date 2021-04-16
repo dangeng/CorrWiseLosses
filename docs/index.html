@@ -176,7 +176,7 @@
 			<tr>
 				<td width=260px>
 					<center>
-						<img class="round" style="width:800px" src="./resources/teaser_v3.gif"/>
+						<img class="round" style="width:800px" src="./resources/teaser_v3_cropped.gif"/>
 					</center>
 				</td>
 			</tr>
@@ -185,7 +185,7 @@
             <center>
                 <tr>
                     <td style='text-align: center'>
-                        Losses typically compare pixels to pixels or patches to patches by absolute location. What happens if we instead compare corresponding patches to corresponding patches? We propose <b>correspondence-wise</b> losses and compare them against traditional pixel-wise and patch-wise losses.
+                        Losses typically compare pixels to pixels or patches to patches by absolute location. What happens if we instead compare <i>corresponding</i> patches and pixels to corresponding patches and pixels? We propose <b>correspondence-wise</b> losses and compare them against traditional pixel-wise and patch-wise losses.
                     </td>
                 </tr>
             </center>
@@ -198,7 +198,7 @@
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-                <p>Today's image prediction methods struggle to change the locations of objects in a scene, producing blurry images that average over the many positions they might occupy. In this paper, we propose a simple change to existing image similarity metrics that makes them more robust to positional errors: we match them using optical flow, then measure the visual similarity of {\em corresponding} pixels.  This change leads to crisper and more perceptually accurate predictions, and can be used with any image prediction network. We apply our method to predicting future frames of a video, where it outperforms previous methods with simple, off-the-shelf architectures.</p>
+                <p>Today's image prediction methods struggle to change the locations of objects in a scene, producing blurry images that average over the many positions they might occupy. In this paper, we propose a simple change to existing image similarity metrics that makes them more robust to positional errors: we match the images using optical flow, then measure the visual similarity of <b>corresponding</b> pixels.  This change leads to crisper and more perceptually accurate predictions, and can be used with any image prediction network. We apply our method to predicting future frames of a video, where it outperforms previous methods with simple, off-the-shelf architectures.</p>
 			</td>
 		</tr>
 	</table>
