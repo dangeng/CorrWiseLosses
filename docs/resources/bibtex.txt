@@ -1,6 +1,6 @@
 @inproceedings{geng2021correspondences,
   title={Comparing Correspondences: Video Prediction with Correspondence-wise Losses},
-  author={Geng, Daniel and Owens, Andrew},
-  joural={arXiv preprint arXiv:2104.09498},
-  year={2021}
+  author={Geng, Daniel and Hamilton, Max and Owens, Andrew},
+  booktitle={CVPR},
+  year={2022}
 }
