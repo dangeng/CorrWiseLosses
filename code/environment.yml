@@ -302,4 +302,4 @@ dependencies:
   - zlib=1.2.12=h166bdaf_1
   - zlib-ng=2.0.6=h166bdaf_0
   - zstd=1.5.2=ha4553b6_0
-prefix: /n/owens-data1/mnt/Big1/dgeng/miniconda3/envs/corr-release
+prefix: /n/owens-data1/mnt/Big1/dgeng/miniconda3/envs/corrwise
