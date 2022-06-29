@@ -1,0 +1,37 @@
+########################
+## Experiment Options ##
+########################
+
+name: toy_l1
+
+########################
+##### Data Options #####
+########################
+
+bg_path: ./assets/bg.png
+obj_path: ./assets/car.png
+loadSize: 512
+
+x_offset: .15
+y_offset: 0
+x_center: .5
+y_center: .7
+
+########################
+#### Train Options #####
+########################
+
+corrwise: False
+
+l1: True
+
+gpu_ids: [0]
+nThreads: 0
+batchSize: 4
+
+#######################
+#### Test Options #####
+#######################
+
+how_many: 20
+which_epoch: 10

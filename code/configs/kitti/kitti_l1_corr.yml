@@ -1,0 +1,35 @@
+########################
+## Experiment Options ##
+########################
+
+name: kitti_l1_corr
+
+########################
+##### Data Options #####
+########################
+
+dataroot: /datad/dgeng/kitti/kitti_512
+dataloader: kitti
+
+########################
+#### Train Options #####
+########################
+
+corrwise: True
+epsilon: .1
+
+l1: True
+
+gpu_ids: [0]
+nThreads: 4
+batchSize: 5
+niter: 20
+
+ngf: 32
+
+#######################
+#### Test Options #####
+#######################
+
+how_many: 100
+which_epoch: 20
