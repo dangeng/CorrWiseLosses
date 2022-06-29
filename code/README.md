@@ -27,13 +27,11 @@ The toy experiments can be run by executing:
 python train_toy.py --config [path to config file]
 ```
 
-where config files can be found in `configs/toy`.
+where config files can be found in `configs/toy`. Visualizations are written to `checkpoints/[experiment_name]/web` as an html file.
 
 ### KITTI Ablations
 
-To run a video prediction model on KITTI with and without a correspondence-wise loss, first download the data (detailed in the next section). Next, change the `dataroot` option in the config files in `configs/kitti` to the appropriate directory.
-
-Then run
+To run a video prediction model on KITTI with and without a correspondence-wise loss, first download and process the data (detailed in the next section). Next, change the `dataroot` option in the config files in `configs/kitti` to the appropriate directory. Then run
 
 ```
 python train.py --config [path to config file]
@@ -59,9 +57,7 @@ to evaluate images under various metrics.
 
 ### Downloading KITTI 
 
-Get the KITTI raw data download script at `https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data_downloader.zip`, unzip it, and then run it to download the KITTI data.
-
-Process the KITTI data by running the `scripts/make_kitti.py` script. Make sure to supply the desired `--source_dir` and `--target_dir` arguments.
+Get the [KITTI raw data download script at](https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data_downloader.zip), unzip it, and then run it to download the KITTI data. Aferwards, process the KITTI data by running the `scripts/make_kitti.py` script. Make sure to supply the desired `--source_dir` and `--target_dir` arguments.
 
 ## Wrapper
 
@@ -74,7 +70,7 @@ loss = CorrWise(base_loss)
 
 ## Code credits
 
-The image generation and video prediction code is modified from [pix2pixHD](https://github.com/NVIDIA/pix2pixHD), commit `5a2c87201c5957e2bf51d79b8acddb9cc1920b26`.
+The image generation and video prediction code is modified from the [pix2pixHD](https://github.com/NVIDIA/pix2pixHD) repo by Wang et al., commit `5a2c87201c5957e2bf51d79b8acddb9cc1920b26`.
 
 We also provide a subset of the RAFT codebase:
 
