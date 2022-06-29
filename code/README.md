@@ -1,4 +1,4 @@
-# CorrWise Losses
+# Correspondence-wise Losses
 
 We propose correspondence-wise losses, which align images _before_ calculating an arbitrary loss. In our paper we show that this results in improvements to image synthesis tasks and provides robustness to spatial uncertainty.
 

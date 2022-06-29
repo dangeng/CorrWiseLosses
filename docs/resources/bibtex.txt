@@ -1,4 +1,4 @@
-@inproceedings{geng2021correspondences,
+@inproceedings{geng2022correspondences,
   title={Comparing Correspondences: Video Prediction with Correspondence-wise Losses},
   author={Geng, Daniel and Hamilton, Max and Owens, Andrew},
   booktitle={CVPR},
