@@ -13,11 +13,16 @@ conda env create -f environment.yml
 conda activate corrwise
 ```
 
-Download RAFT checkpoints (for correspondence-wise warping) by going to `corrwise/` and running
+A `requirements.txt` file is also included if you prefer `pip`, but it is untested.
+
+Download RAFT checkpoints (for correspondence-wise warping) by running:
 
 ```
+cd corrwise
 sh download_models.sh
 ```
+
+_Make sure you are in the `corrwise` directory before running the shell script!_
 
 ### Toy Experiments
 
